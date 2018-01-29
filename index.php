@@ -5,7 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
     <meta name="description" content="">
     <meta name="author" content="">
-    <link rel="icon" href="../../favicon.ico">
+    <link rel="icon" type="image/png" href="Images/favicon_uk.png">
 
     <title>Jumbotron Template for Bootstrap</title>
 
@@ -18,7 +18,7 @@
 
   <body>    
 
-    <nav class="navbar navbar-expand-md navbar-dark fixed-top bg-dark">
+    <nav class="navbar navbar-expand-md navbar-dark fixed-top bg-primary">
       <a class="navbar-brand" href="#">Shakespear</a>
       <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarsExampleDefault" aria-controls="navbarsExampleDefault" aria-expanded="false" aria-label="Toggle navigation">
         <span class="navbar-toggler-icon"></span>
@@ -54,9 +54,9 @@
     <main role="main">
 
       <!-- Main jumbotron for a primary marketing message or call to action -->
-      <div class="jumbotron">
+      <div class="jumbotron" style="background-image:url(Images/london_header.jpg); background-size: cover; color:white;">
         <div class="container">
-          <h1 class="display-3">shakespear</h1>
+          <h1 class="display-3">Shakespear</h1>
           <p>This platform is designed to help you master the language of Shakespear. You will find many exercises adapted to your level to learn and improve at your own pace.</p>
           <p><a class="btn btn-primary btn-lg" href="#" role="button">Learn more &raquo;</a></p>
         </div>
@@ -82,16 +82,129 @@
           </div>
         </div>
 
+        <div class="row">
+          <div class="col-md-4">
+            <h2>Vocabulary</h2>
+            <p>Learn new vocabulary by theme.</p>
+            <p><a class="btn btn-secondary" href="#" role="button">View details &raquo;</a></p>
+          </div>
+          <div class="col-md-4">
+            <h2>Spelling</h2>
+            <p>Correct common mistakes and identify false friends.</p>
+            <p><a class="btn btn-secondary" href="#" role="button">View details &raquo;</a></p>
+          </div>
+          <div class="col-md-4">
+            <h2>Conjugaison</h2>
+            <p>Past, present, future, become unstoppable and no longer lose yourself in the maze of time.</p>
+            <p><a class="btn btn-secondary" href="#" role="button">View details &raquo;</a></p>
+          </div>
+        </div>
+
+
+        <div class="row">
+          <div class="col-md-4">
+            <h2>Vocabulary</h2>
+            <p>Learn new vocabulary by theme.</p>
+            <p><a class="btn btn-secondary" href="#" role="button">View details &raquo;</a></p>
+          </div>
+          <div class="col-md-4">
+            <h2>Spelling</h2>
+            <p>Correct common mistakes and identify false friends.</p>
+            <p><a class="btn btn-secondary" href="#" role="button">View details &raquo;</a></p>
+          </div>
+          <div class="col-md-4">
+            <h2>Conjugaison</h2>
+            <p>Past, present, future, become unstoppable and no longer lose yourself in the maze of time.</p>
+            <p><a class="btn btn-secondary" href="#" role="button">View details &raquo;</a></p>
+          </div>
+        </div>
+
+
+        <div class="row">
+          <div class="col-md-4">
+            <h2>Vocabulary</h2>
+            <p>Learn new vocabulary by theme.</p>
+            <p><a class="btn btn-secondary" href="#" role="button">View details &raquo;</a></p>
+          </div>
+          <div class="col-md-4">
+            <h2>Spelling</h2>
+            <p>Correct common mistakes and identify false friends.</p>
+            <p><a class="btn btn-secondary" href="#" role="button">View details &raquo;</a></p>
+          </div>
+          <div class="col-md-4">
+            <h2>Conjugaison</h2>
+            <p>Past, present, future, become unstoppable and no longer lose yourself in the maze of time.</p>
+            <p><a class="btn btn-secondary" href="#" role="button">View details &raquo;</a></p>
+          </div>
+        </div>
+
+
+        <div class="row">
+          <div class="col-md-4">
+            <h2>Vocabulary</h2>
+            <p>Learn new vocabulary by theme.</p>
+            <p><a class="btn btn-secondary" href="#" role="button">View details &raquo;</a></p>
+          </div>
+          <div class="col-md-4">
+            <h2>Spelling</h2>
+            <p>Correct common mistakes and identify false friends.</p>
+            <p><a class="btn btn-secondary" href="#" role="button">View details &raquo;</a></p>
+          </div>
+          <div class="col-md-4">
+            <h2>Conjugaison</h2>
+            <p>Past, present, future, become unstoppable and no longer lose yourself in the maze of time.</p>
+            <p><a class="btn btn-secondary" href="#" role="button">View details &raquo;</a></p>
+          </div>
+        </div>
+
+
+        <div class="row">
+          <div class="col-md-4">
+            <h2>Vocabulary</h2>
+            <p>Learn new vocabulary by theme.</p>
+            <p><a class="btn btn-secondary" href="#" role="button">View details &raquo;</a></p>
+          </div>
+          <div class="col-md-4">
+            <h2>Spelling</h2>
+            <p>Correct common mistakes and identify false friends.</p>
+            <p><a class="btn btn-secondary" href="#" role="button">View details &raquo;</a></p>
+          </div>
+          <div class="col-md-4">
+            <h2>Conjugaison</h2>
+            <p>Past, present, future, become unstoppable and no longer lose yourself in the maze of time.</p>
+            <p><a class="btn btn-secondary" href="#" role="button">View details &raquo;</a></p>
+          </div>
+        </div>
+
         <hr>
 
       </div> <!-- /container -->
 
     </main>
 
-    <footer class="container">
-      <p>&copy; Guillaume KOENIG 2018-2019</p>
-    </footer>
+ <style>
+ html {
+  position: relative;
+  min-height: 100%;
+}
+body {
+  margin-bottom: 60px; /* Margin bottom by footer height */
+}
+ .footer {
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+  height: 60px; /* Set the fixed height of the footer here */
+  line-height: 60px; /* Vertically center the text there */
+  background-color: #f5f5f5;
+}
+ </style>
 
+    <footer class="footer">
+      <div class="container">
+        <span class="text-muted">&copy; Guillaume KOENIG 2018-2019</span>
+      </div>
+    </footer>
     <!-- Bootstrap core JavaScript
     ================================================== -->
     <!-- Placed at the end of the document so the pages load faster -->

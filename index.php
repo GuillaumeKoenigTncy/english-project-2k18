@@ -25,7 +25,7 @@
       <!-- Main jumbotron for a primary marketing message or call to action -->
       <div class="jumbotron" style="background-image:url(Images/london_header.jpg); background-size: cover; color:white;">
         <div class="container">
-          <h1 class="display-3">Shakespeare</h1>
+          <h1 class="display-3">Shakespeareee</h1>
           <p>This platform is designed to help you master the language of Shakespeare. You will find many exercises adapted to your level to learn and improve at your own pace.</p>
           <p><a class="btn btn-primary btn-lg" href="#" role="button">Learn more &raquo;</a></p>
         </div>

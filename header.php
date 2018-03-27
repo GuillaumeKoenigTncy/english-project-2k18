@@ -12,7 +12,7 @@ Header
             <a class="nav-link" href="#">Home <span class="sr-only">(current)</span></a>
         </li>
         <li class="nav-item">
-            <a class="nav-link" href="#">My account</a>
+            <a class="nav-link" href="#">My aaaaccount</a>
         </li> 
         <!--<li class="nav-item">
         <a class="nav-link disabled" href="#">Disabled</a>

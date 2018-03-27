@@ -18,7 +18,7 @@
 
   <body>    
  
-  <?php include(header.php); ?>  
+  <? include(./header.php); ?>  
 
     <main role="main"> 
 
@@ -184,7 +184,7 @@ body {
 }
  </style>
 
-<?php include(header.php); ?>
+<? include(./header.php); ?>
 
     <!-- Bootstrap core JavaScript
     ================================================== -->

@@ -20,7 +20,7 @@
  
   <?php include(header.php) ?> 
 
-    <main role="main">
+    <main role="main"> 
 
       <!-- Main jumbotron for a primary marketing message or call to action -->
       <div class="jumbotron" style="background-image:url(Images/london_header.jpg); background-size: cover; color:white;">

@@ -18,46 +18,15 @@
 
   <body>    
 
-    <nav class="navbar navbar-expand-md navbar-dark fixed-top bg-primary">
-      <a class="navbar-brand" href="#">Shakespear</a>
-      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarsExampleDefault" aria-controls="navbarsExampleDefault" aria-expanded="false" aria-label="Toggle navigation">
-        <span class="navbar-toggler-icon"></span>
-      </button>
-
-      <div class="collapse navbar-collapse" id="navbarsExampleDefault">
-        <ul class="navbar-nav mr-auto">
-          <li class="nav-item active">
-            <a class="nav-link" href="#">Home <span class="sr-only">(current)</span></a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link" href="#">My account</a>
-          </li>
-          <!--<li class="nav-item">
-            <a class="nav-link disabled" href="#">Disabled</a>
-          </li>
-          <li class="nav-item dropdown">
-            <a class="nav-link dropdown-toggle" href="http://example.com" id="dropdown01" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Dropdown</a>
-            <div class="dropdown-menu" aria-labelledby="dropdown01">
-              <a class="dropdown-item" href="#">Action</a>
-              <a class="dropdown-item" href="#">Another action</a>
-              <a class="dropdown-item" href="#">Something else here</a>
-            </div>
-          </li>-->
-        </ul>
-        <!--<form class="form-inline my-2 my-lg-0">
-          <input class="form-control mr-sm-2" type="text" placeholder="Search" aria-label="Search">
-          <button class="btn btn-outline-success my-2 my-sm-0" type="submit">Search</button>
-        </form>-->
-      </div>
-    </nav>
+  <?php include(header.php) ?>
 
     <main role="main">
 
       <!-- Main jumbotron for a primary marketing message or call to action -->
       <div class="jumbotron" style="background-image:url(Images/london_header.jpg); background-size: cover; color:white;">
         <div class="container">
-          <h1 class="display-3">Shakespear</h1>
-          <p>This platform is designed to help you master the language of Shakespear. You will find many exercises adapted to your level to learn and improve at your own pace.</p>
+          <h1 class="display-3">Shakespeare</h1>
+          <p>This platform is designed to help you master the language of Shakespeare. You will find many exercises adapted to your level to learn and improve at your own pace.</p>
           <p><a class="btn btn-primary btn-lg" href="#" role="button">Learn more &raquo;</a></p>
         </div>
       </div>
@@ -157,30 +126,45 @@
           </div>
         </div>
 
-
-        <div class="row">
-          <div class="col-md-4">
-            <h2>Vocabulary</h2>
-            <p>Learn new vocabulary by theme.</p>
-            <p><a class="btn btn-secondary" href="#" role="button">View details &raquo;</a></p>
-          </div>
-          <div class="col-md-4">
-            <h2>Spelling</h2>
-            <p>Correct common mistakes and identify false friends.</p>
-            <p><a class="btn btn-secondary" href="#" role="button">View details &raquo;</a></p>
-          </div>
-          <div class="col-md-4">
-            <h2>Conjugaison</h2>
-            <p>Past, present, future, become unstoppable and no longer lose yourself in the maze of time.</p>
-            <p><a class="btn btn-secondary" href="#" role="button">View details &raquo;</a></p>
-          </div>
-        </div>
-
         <hr>
 
       </div> <!-- /container -->
 
     </main>
+
+    <script>
+  
+  /*
+var question = {
+    "phrase": "<p>I'm hapy to be here today !</p>",
+    "triger": "hapy"
+}
+
+
+  $(".clickable").click(function(e){
+         s = window.getSelection();
+         var range = s.getRangeAt(0);
+         var node = s.anchorNode;
+         while(range.toString().indexOf(' ') != 0) {                 
+            range.setStart(node,(range.startOffset -1));
+         }
+         range.setStart(node, range.startOffset +1);
+         do{
+           range.setEnd(node,range.endOffset + 1);
+
+        }while(range.toString().indexOf(' ') == -1 && range.toString().trim() != '');
+        var str = range.toString().trim();
+        if(str == question.triger)
+        alert(str);
+        else
+        alert("Nope");
+       });
+    
+    $(".clickable").html("question.phrase");
+        */
+  </script>
+
+   <!-- <p id="questiont" class="clickable">test</p>-->
 
  <style>
  html {
@@ -200,11 +184,8 @@ body {
 }
  </style>
 
-    <footer class="footer">
-      <div class="container">
-        <span class="text-muted">&copy; Guillaume KOENIG 2018-2019</span>
-      </div>
-    </footer>
+<?php include(header.php) ?>
+
     <!-- Bootstrap core JavaScript
     ================================================== -->
     <!-- Placed at the end of the document so the pages load faster -->
@@ -214,5 +195,6 @@ body {
 
     <script>window.jQuery || document.write('<script src="../../../../assets/js/vendor/jquery-slim.min.js"><\/script>')</script>
     <script src="../../../../assets/js/vendor/popper.min.js"></script>
+
   </body>
 </html>

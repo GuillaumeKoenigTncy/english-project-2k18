@@ -1,4 +1,3 @@
-Header
 
 <nav class="navbar navbar-expand-md navbar-dark fixed-top bg-primary">
     <a class="navbar-brand" href="#">Shakespear</a>

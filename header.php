@@ -13,7 +13,7 @@ Header
         </li>
         <li class="nav-item">
             <a class="nav-link" href="#">My account</a>
-        </li>
+        </li> 
         <!--<li class="nav-item">
         <a class="nav-link disabled" href="#">Disabled</a>
         </li>

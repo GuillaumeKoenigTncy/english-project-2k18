@@ -5,6 +5,13 @@ session_start();
 if(isset($_SESSION['user']))
   $user = $_SESSION['user'];
 
+$dir    = './vocabulary';
+$files = scandir($dir);
+
+for($i = 2; $i < count($files); ++$i) {
+    echo $files[$i];
+}
+
 ?>
 
 <!doctype html>
@@ -33,36 +40,17 @@ if(isset($_SESSION['user']))
     <main role="main"> 
 
       <!-- Main jumbotron for a primary marketing message or call to action -->
-      <div class="jumbotron" style="background-image:url(Images/london_header.jpg); background-size: cover; color:white;">
+      <div class="jumbotron" style="background-image:url(Images/board.jpg); background-size: cover; color:white;">
         <div class="container">
-          <h1 class="display-3">Shakespeare</h1>
-          <p>This platform is designed to help you master the language of Shakespeare. You will find many exercises adapted to your level to learn and improve at your own pace.</p>
-          <p><a class="btn btn-primary btn-lg" href="#" role="button">Learn more &raquo;</a></p>
+          <h1 class="display-3">Shakespeare - Conjugaison</h1>
+          <br>
+          <p>Past, present, future, become unstoppable and no longer lose yourself in the maze of time.</p>
+          <br>
         </div>
       </div>
 
       <div class="container">
-        <!-- Example row of columns -->
-        <div class="row">
-          <div class="col-md-4">
-            <h2>Vocabulary</h2>
-            <p>Learn new vocabulary by theme.</p>
-            <p><a class="btn btn-secondary" href="vocabulary.php" role="button">View details &raquo;</a></p>
-          </div>
-          <div class="col-md-4">
-            <h2>Spelling</h2>
-            <p>Correct common mistakes and identify false friends.</p>
-            <p><a class="btn btn-secondary" href="spelling.php" role="button">View details &raquo;</a></p>
-          </div>
-          <div class="col-md-4">
-            <h2>Conjugaison</h2>
-            <p>Past, present, future, become unstoppable and no longer lose yourself in the maze of time.</p>
-            <p><a class="btn btn-secondary" href="conjugaison.php" role="button">View details &raquo;</a></p>
-          </div>
-        </div>
-        
-        <hr>
-
+ 
       </div> <!-- /container -->
 
     </main>

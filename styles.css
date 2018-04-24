@@ -1,0 +1,125 @@
+.intro {
+  display:none;
+}
+#questionNow.intro {
+  display:block;
+}
+.quizBody {
+  position:relative;
+  display:none;
+}
+.questionNum {
+  margin-bottom: 10px;
+  display: inline-block;
+  background: rgba(97,76,63,0.5);
+  color: #fff;
+  padding: 5px 10px;
+  border-radius: 5px;
+  font-family: monospace;
+}
+.questionTitle {
+  margin-top: 5px;
+  display: inline-block;
+  font-size: 0.8em;
+}
+#questionNow.quizBody {
+  display:block;
+}
+.quizBox {
+  margin:10px 0;
+  background:rgba(110,5,5,0.7);
+  background: repeating-linear-gradient( -45deg, rgba(110,5,5,0.7), rgba(110,5,5,0.7) 10px, rgba(110,5,5,0.7) 10px, rgba(110,5,5,0.7) 20px );
+  box-shadow:1px 1px 2px rgba(0,0,0,0);
+  transition:box-shadow 400ms, background 400ms;
+}
+.quizBox:hover {
+  cursor:pointer;
+  background:rgba(110,5,5,0.9);
+  background: repeating-linear-gradient( -45deg, rgba(110,5,5,0.9), rgba(110,5,5,0.9) 10px, rgba(110,5,5,0.9) 10px, rgba(110,5,5,0.9) 20px );
+  box-shadow:1px 1px 2px rgba(0,0,0,0.7);
+  transition:box-shadow 200ms, background 200ms;
+}
+.quizBox.boxSelect {
+  background:rgba(110,5,5,1);
+  color:#fff;
+  box-shadow:1px 1px 3px rgba(0,0,0,0.3);
+  background: repeating-linear-gradient( -45deg, #994F4F, #994F4F 10px, #6E0505 10px, #6E0505 20px );
+}
+
+.ansText {
+  padding:15px;
+  text-align:center;
+  font-size:1.5em;
+  color:#fff;
+  line-height:1.2;
+
+}
+.ansImage {
+  overflow:hidden;
+  height:300px;
+
+}
+.ansImage img {
+  height:auto;
+  width:100%;
+  transition:opacity 400ms;
+}
+.quizBox:hover .ansImage img {
+  opacity:0.8;
+  transition:opacity 200ms;
+}
+.quizBox.boxSelect .ansImage img {
+  opacity:0.6;
+}
+button#getStarted {
+    position:absolute;
+    width: 50%;
+    left: 0;
+    right: 0;
+    margin: 0 auto;
+    bottom: 5%;
+    text-align: center;
+}
+.resultsBtns a, .resultsBtns a:hover, .resultsBtns a:visited, .resultsBtns a:active, .resultsBtns a:active:hover, .resultsBtns a:focus {
+  color:#fff;
+  text-decoration:none;
+}
+.resultsBtns .btn {
+  text-align:center;
+  white-space: normal;
+  margin-bottom:15px;
+}
+.resultsBtns .btn.btnRetake {
+
+}
+.quizAlert {
+  position:absolute;
+  right: 0;
+  top: -45px;
+  opacity:0;
+  background: rgba(230,130,0,0.8);
+  padding: 5px 10px 3px;
+  border-radius: 5px;
+  color: #fff;
+  font-size: 1em;
+  transition:opacity 500ms;
+}
+.invisible {
+  display:none;
+}
+.visible {
+  opacity:1;
+}
+.result {
+  text-align: center;
+  border-top: 1px dotted;
+  border-bottom: 1px dotted;
+  padding: 15px;
+  margin: 15px 0 25px;
+}
+.displayPercent {
+  font-weight: bold;
+  display: block;
+  font-size: 1.5em;
+  margin: 5px 0;
+}

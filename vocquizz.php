@@ -1,4 +1,6 @@
-<?php
+
+
+  <?php
 
 session_start();
 
@@ -24,6 +26,8 @@ if(isset($_SESSION['user']))
     
     <!-- Custom styles for this template -->
     <link href="custom.css" rel="stylesheet">
+
+    <link rel="stylesheet" href="styles.css" type="text/css">
   </head>
 
   <body>    
@@ -41,40 +45,34 @@ if(isset($_SESSION['user']))
         </div>
       </div>
 
-      <div class="container">
-        <!-- Example row of columns -->
-        <div class="row">
 
-        <div class="col-md-4">
-            <h2>General Knowledge</h2>
-            <p>Learn general things about countries, cities, ...</p>
-            <p><a class="btn btn-secondary" href="general.php" role="button">View details &raquo;</a></p>
+<div class="col-xs-12 col-sm-12 col-md-12 col-lg-12">
+
+  <h1 class="quizTitle text-center" id="quizTitle"></h1>
+
+        <div id="questionNow" class="intro text-center">
+          <div class="col-xs-12 col-sm-12 col-md-12 col-lg-12">
+            <div class="introContainer">
+              <button class="btn btn-lg btn" id="getStarted">Take the quizz ! <i class="fa fa-chevron-right" aria-hidden="true"></i></button>
+              <img class="img-responsive" src="images/siteImages/rainier.jpg" alt="Mount Rainier" />
+            </div>
           </div>
-
-          <div class="col-md-4">
-            <h2>Vocabulary</h2>
-            <p>Learn new vocabulary by theme.</p>
-            <p><a class="btn btn-secondary" href="vocabulary.php" role="button">View details &raquo;</a></p>
-          </div>
-
-          <div class="col-md-4">
-            <h2>Spelling</h2>
-            <p>Correct common mistakes and identify false friends.</p>
-            <p><a class="btn btn-secondary" href="spelling.php" role="button">View details &raquo;</a></p>
-          </div>
-
-          <div class="col-md-4">
-            <h2>Conjugaison</h2>
-            <p>Past, present, future, become unstoppable and no longer lose yourself in the maze of time.</p>
-            <p><a class="btn btn-secondary" href="conjugaison.php" role="button">View details &raquo;</a></p>
-          </div>
-
         </div>
-        
+
 
         
-        <hr>
+        <div class="col-xs-12 col-sm-12 col-md-12 col-lg-12">
+          <div class="questionContainer">
+        </div>
+ 
+        </div>
+  
+      </div>
+    
+    
+      <script src="js/script.js" type="text/javascript"></script>
 
+   
       </div> <!-- /container -->
 
     </main>
@@ -136,7 +134,8 @@ body {
     <!-- Bootstrap core JavaScript
     ================================================== -->
     <!-- Placed at the end of the document so the pages load faster -->
-    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+
+    <script src="https://code.jquery.com/jquery-3.2.1.min.js" integrity="sha256-hwg4gsxgFZhOsEEamdOYGBf13FyQuiTwlAQgxVSNgt4=" crossorigin="anonymous"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
 

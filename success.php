@@ -37,28 +37,39 @@ if(isset($_SESSION['user']))
       <!-- Main jumbotron for a primary marketing message or call to action -->
       <div class="jumbotron" style="background-image:url(Images/board.jpg); background-size: cover; color:white;">
         <div class="container">
-          <h1 class="display-3">Shakespeare - Vocabulary</h1>
-          <br>
-          <p>Learn new vocabulary by theme.</p>
-          <br>
+          <h1 class="display-3">Shakespeare - Result</h1>
         </div>
       </div>
 
-      <div class="container">
+      <div class="container text-center">
 
-<?php
+        <div class="row">
+          <div class="col-sm-12">
+            <h1 class="quizTitle"></h1>
+          </div>
+        </div>
+        <div class="row">
+          <div class="col-sm-12">
+            <h2 class="result"></h2>
+          </div>
+        </div>
 
-$dir    = './vocabulary';
-$files = scandir($dir);
+        <br>
 
-for($i = 2; $i < count($files); ++$i) {
-    echo '
-    <a href="/vocquizz.php?name='. str_replace ( ".json" , "" , $files[$i] ) .'&category=vocabulary" class="btn btn-primary btn-lg active" role="button" aria-pressed="true">'. str_replace ( ".json" , "" , $files[$i] ) .'</a>
-    '
-     ;
-}
+        <script>
 
-?>
+        var url_string = window.location.href;
+        var url = new URL(url_string);
+        var categ = url.searchParams.get("category");
+
+        document.write('<a href="'+categ+'.php" class="btn btn-primary" role="button">Go back to '+categ+'</a>');
+
+        </script>  
+        
+      
+        <script src="js/script.js" type="text/javascript"></script>
+        <script src="js/calculateresult.js?v=1" type="text/javascript"></script>
+
       </div> <!-- /container -->
 
     </main>  

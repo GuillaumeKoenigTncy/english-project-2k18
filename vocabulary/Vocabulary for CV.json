@@ -1,0 +1,22 @@
+[
+  {
+    "question_id" : 0,
+    "question": "American word for 'CV' ?",
+    "answers": [
+      {"id": 0, "text": "CV"},
+      {"id": 1, "text": "Resumé"},
+      {"id": 2, "text": "Presentation"}
+
+    ],
+    "correct": 1
+  },
+  {
+    "question_id" : 1,
+		"question" : "How do you say 'date de naissance'",
+		"answers"  : [
+      {"id": 1, "text": "Date of birth"},
+      {"id": 2, "text": "Birthname"}
+		],
+		"correct"  : 1
+	}
+]

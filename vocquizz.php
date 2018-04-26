@@ -12,7 +12,7 @@ if(isset($_SESSION['user']))
 		<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
 		<meta name="description" content="">
 		<meta name="author" content="">
-		<link rel="icon" type="image/png" href="Images/favicon_uk.png">
+		<link rel="icon" type="image/png" href="images/favicon_uk.png">
 
 		<title>Shakespeare - Master the language</title>
 
@@ -33,7 +33,7 @@ if(isset($_SESSION['user']))
 		<main role="main"> 
 
 			<!-- Main jumbotron for a primary marketing message or call to action -->
-			<div class="jumbotron" style="background-image:url(Images/london_header.jpg); background-size: cover; color:white;">
+			<div class="jumbotron" style="background-image:url(images/london_header.png); background-size: cover; color:white;">
 				<div class="container">
 					<h1 class="display-3">Shakespeare</h1>
 					<p>This platform is designed to help you master the language of Shakespeare. You will find many exercises adapted to your level to learn and improve at your own pace.</p>

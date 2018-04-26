@@ -26,31 +26,44 @@ if(isset($_SESSION['user']))
 		<link href="custom.css" rel="stylesheet">
 	</head>
 
- 	 <body>    
+  	<body>    
  
-		<?php include './header.php'; ?>  
+  		<?php include './header.php'; ?>  
 
 		<main role="main"> 
 
 			<!-- Main jumbotron for a primary marketing message or call to action -->
 			<div class="jumbotron" style="background-image:url(Images/board.jpg); background-size: cover; color:white;">
 				<div class="container">
-					<h1 class="display-3">Shakespeare - General</h1>
-					<br>
-					<p>Learn general things about countries, cities, ...</p>
-					<br>
+					<h1 class="display-3">Shakespeare - Result</h1>
 				</div>
 			</div>
 
-			<div class="container">
-				<?php
-				$dir    = './general';
-				$files = scandir($dir);
+			<div class="container text-center">
 
-				for($i = 2; $i < count($files); ++$i) {
-					echo '<a href="/generalquizz.php?name='. str_replace ( ".json" , "" , $files[$i] ) .'&category=general" class="btn btn-primary btn-lg active" role="button" aria-pressed="true">'. str_replace ( ".json" , "" , $files[$i] ) .'</a>';
-				}
-				?>
+				<div class="row">
+					<div class="col-sm-12">
+						<h1 class="quizTitle"></h1>
+					</div>
+				</div>
+				<div class="row">
+					<div class="col-sm-12">
+						<h2 class="result"></h2>
+					</div>
+				</div>
+
+				<br>
+
+				<script>
+					var url_string = window.location.href;
+					var url = new URL(url_string);
+					var categ = url.searchParams.get("category");
+					document.write('<a href="'+categ+'.php" class="btn btn-primary" role="button">Go back to '+categ+'</a>');
+				</script>  
+			
+				<script src="js/script1.js" type="text/javascript"></script>
+				<script src="js/calculateresult1.js?v=1" type="text/javascript"></script>
+
 			</div> <!-- /container -->
 
 		</main>  
@@ -64,5 +77,5 @@ if(isset($_SESSION['user']))
 		<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
 		<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
 
-	</body>
+  	</body>
 </html>

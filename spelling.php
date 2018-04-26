@@ -43,7 +43,7 @@ if(isset($_SESSION['user']))
             </div>
 
             <div class="container">
-                <?phps
+                <?php
                 $dir    = './spelling';
                 $files = scandir($dir);
                 for($i = 2; $i < count($files); ++$i) {

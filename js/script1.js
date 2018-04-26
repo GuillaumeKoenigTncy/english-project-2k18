@@ -199,7 +199,7 @@ function getData(){
   var url = new URL(url_string);
   var c = url.searchParams.get("category");
   var name = url.searchParams.get("name");
-  $.getJSON( "http://"+$(location).attr('hostname')+"/"+ c +"/"+ name +".json", function( data ) {
+  $.getJSON( "http://"+$(location).attr('hostname')+"/projet/"+ c +"/"+ name +".json", function( data ) {
     GlobalData = data;
     quizSetupv2(data);
   });

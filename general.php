@@ -48,7 +48,7 @@ if(isset($_SESSION['user']))
 				$files = scandir($dir);
 
 				for($i = 2; $i < count($files); ++$i) {
-					echo '<a href="/generalquizz.php?name='. str_replace ( ".json" , "" , $files[$i] ) .'&category=general" class="btn btn-primary btn-lg active" role="button" aria-pressed="true">'. str_replace ( ".json" , "" , $files[$i] ) .'</a>';
+					echo '<a href="/projet/generalquizz.php?name='. str_replace ( ".json" , "" , $files[$i] ) .'&category=general" class="btn btn-primary btn-lg active" role="button" aria-pressed="true">'. str_replace ( ".json" , "" , $files[$i] ) .'</a>';
 				}
 				?>
 			</div> <!-- /container -->

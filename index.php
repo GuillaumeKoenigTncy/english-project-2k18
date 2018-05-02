@@ -62,7 +62,7 @@ if(isset($_SESSION['user']))
 				</div>
 
 				<div class="col-md-4">
-					<h2>Conjugaison</h2>
+					<h2>Conjugation</h2>
 					<p>Past, present, future, become unstoppable and no longer lose yourself in the maze of time.</p>
 					<p><a class="btn btn-secondary" href="conjugaison.php" role="button">View details &raquo;</a></p>
 				</div>

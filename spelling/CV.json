@@ -1,0 +1,20 @@
+[
+  {
+    "question_id" : 0,
+    "question": "Develop a automated solution for customer review.",
+    "triger" : "Develop",
+    "rule" : "Developped"
+  },
+  {
+    "question_id" : 1,
+    "question": "I graduate with a BA in Sociology from the University of Clalifornia in Los Angeles in 2007",
+    "triger" : "graduate",
+    "rule" : "graduated"
+  },
+  {
+    "question_id" : 2,
+    "question": "CCDL means current clean driver licence",
+    "triger" : "driver",
+    "rule" : "driving licence/driver license"
+	}
+]

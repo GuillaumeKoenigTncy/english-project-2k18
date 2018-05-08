@@ -1,0 +1,44 @@
+[
+    {
+      "question_id" : 0,
+      "question": "During which type of meeting do you produce many ideas ?",
+      "answers": [
+        {"id": 0, "text": "Chat"},
+        {"id": 1, "text": "Brainstorming"},
+        {"id": 2, "text": "AGM"}
+  
+      ],
+      "correct": 2
+    },
+    {
+      "question_id" : 1,
+          "question" : "What do you want to avoid during meetings ?",
+          "answers"  : [
+        {"id": 1, "text": "Digression"},
+        {"id": 2, "text": "Agenda"},
+        {"id": 3, "text": "Minutes"}
+          ],
+          "correct"  : 1
+    },
+    {
+      "question_id" : 2,
+          "question" : "Complete the sentence :'Mr X, perhaps you'd like to get the ball ...",
+          "answers"  : [
+        {"id": 1, "text": "Running"},
+        {"id": 2, "text": "Turning"},
+        {"id": 3, "text": "Rolling"}
+          ],
+          "correct"  : 3
+    },
+    {
+      "question_id" : 3,
+          "question" : "Whatever you do, keep ...",
+          "answers"  : [
+        {"id": 1, "text": "Calm"},
+        {"id": 2, "text": "Nerve"},
+        {"id": 3, "text": "Anger"}
+          ],
+          "correct"  : 2
+    }
+  ]
+  

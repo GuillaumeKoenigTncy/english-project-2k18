@@ -1,0 +1,20 @@
+[
+  {
+    "question_id" : 0,
+    "question": "CV gives educational and professional infos, whereas covers letter explains why you want the job.",
+    "triger" : "covers",
+    "rule" : "cover letter : lettre de motivation"
+  },
+  {
+    "question_id" : 1,
+    "question": "I would like to apply for an Associate Consultant position as advertized on monster.com.",
+    "triger" : "advertized",
+    "rule" : "advertised"
+  },
+  {
+    "question_id" : 2,
+    "question": "I would like to tank you in advance for you consideration",
+    "triger" : "tank",
+    "rule" : "thank"
+  }
+]

@@ -12,11 +12,31 @@
   },
   {
     "question_id" : 1,
-		"question" : "How do you say 'date de naissance'",
+		"question" : "How do you say 'date de naissance'?",
 		"answers"  : [
       {"id": 1, "text": "Date of birth"},
       {"id": 2, "text": "Birthname"}
 		],
 		"correct"  : 1
-	}
+  },
+  {
+    "question_id" : 2,
+		"question" : "In which field would you indicate : 'me@example.com' ?",
+		"answers"  : [
+      {"id": 1, "text": "Mail"},
+      {"id": 2, "text": "Email"},
+      {"id": 3, "text": "Both"}
+		],
+		"correct"  : 2
+  },
+  {
+    "question_id" : 3,
+		"question" : "In which field would you indicate : 'me@example.com' ?",
+		"answers"  : [
+      {"id": 1, "text": "Mail"},
+      {"id": 2, "text": "Email"},
+      {"id": 3, "text": "Both"}
+		],
+		"correct"  : 2
+  }
 ]

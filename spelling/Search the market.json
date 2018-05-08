@@ -1,19 +1,19 @@
 [
   {
     "question_id" : 0,
-    "question": "You can search the market through cold call.",
+    "question": " You can search the market through cold call. ",
     "triger" : "call",
     "rule" : "Cold calling"
   },
   {
     "question_id" : 1,
-    "question": "Well-written resume and cover letter are basics for a job application.",
+    "question": " Well-written resume and cover letter are basics for a job application. ",
     "triger" : "resume",
     "rule" : "resume : résumé"
   },
   {
     "question_id" : 2,
-    "question": "I graduate with a BA in Sociology from the University of Clalifornia in Los Angeles in 2007.",
+    "question": " I graduate with a BA in Sociology from the University of Clalifornia in Los Angeles in 2007. ",
     "triger" : "graduate",
     "rule" : "graduated"
   }

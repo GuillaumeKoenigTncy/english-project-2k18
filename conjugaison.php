@@ -47,7 +47,7 @@ if(isset($_SESSION['user']))
                 $dir    = './conjugaison';
                 $files = scandir($dir);
                 for($i = 2; $i < count($files); ++$i) {
-                    echo '<a style="margin: 0 10px;" href="/conjugaison/conquizz.php?name='. str_replace ( ".json" , "" , $files[$i] ) .'&category=conjugaison" class="btn btn-primary btn-lg active" role="button" aria-pressed="true">'. str_replace ( ".json" , "" , $files[$i] ) .'</a>';
+                    echo '<a style="margin: 0 10px;" href="/projet/conquizz.php?name='. str_replace ( ".json" , "" , $files[$i] ) .'&category=conjugaison" class="btn btn-primary btn-lg active" role="button" aria-pressed="true">'. str_replace ( ".json" , "" , $files[$i] ) .'</a>';
                 }
                 ?>
             </div> <!-- /container -->

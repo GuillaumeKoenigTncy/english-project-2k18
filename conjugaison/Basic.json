@@ -1,0 +1,20 @@
+[
+  {
+    "question_id" : 0,
+    "question": " I are in a big meeting. ",
+    "triger" : "are",
+    "rule" : "We wrote 'I am' "
+  },
+  {
+    "question_id" : 1,
+    "question": "  (Past) : I graduate with a BA in Sociology from the University of Clalifornia in Los Angeles in 2007. ",
+    "triger" : "graduate",
+    "rule" : "The past of graduate is graduated"
+  },
+  {
+    "question_id" : 2,
+    "question": "  (Present) I was supposed to turn in my file this morning ",
+    "triger" : "was",
+    "rule" : "In this case we wrote 'I have to turn...' "
+	}
+]

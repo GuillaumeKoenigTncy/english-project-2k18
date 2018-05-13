@@ -1,0 +1,89 @@
+[
+    {
+      "question_id" : 0,
+      "question": "U2 Is from ...",
+      "answers": [
+        {"id": 0, "text": "Dublin"},
+        {"id": 1, "text": "London"},
+        {"id": 2, "text": "Paris"}
+  
+      ],
+      "correct": 0
+    },
+    {
+      "question_id" : 1,
+          "question" : "Chris Martin is a member of ...",
+          "answers"  : [
+            {"id"  : 1, "text" : "Coldplay", "image": "images/quizImages/coldplay.png"},
+            {"id"  : 2, "text" : "The Beatles", "image": "images/quizImages/beatles.png"},
+            {"id"  : 3, "text" : "Rammstein", "image": "images/quizImages/rammstein.png"},
+            {"id"  : 3, "text" : "U2", "image": "images/quizImages/U2.png"}
+          ],
+          "correct"  : 1
+    },
+    {
+      "question_id" : 2,
+          "question" : "'The cranberries' wrote a song called Zombies. This song is about...",
+          "answers"  : [
+        {"id": 1, "text": "World War 2"},
+        {"id": 2, "text": "The royal Navy"},
+        {"id": 3, "text": "The Warrington Bombing"}
+          ],
+          "correct"  : 3
+    },
+    {
+      "question_id" : 3,
+          "question" : "What is a Coda ?",
+          "answers"  : [
+        {"id": 1, "text": "A passage that brings a piece  to an end"},
+        {"id": 2, "text": "The piece that holds the guitar neck"},
+        {"id": 3, "text": "An emergency code at a festival"}
+          ],
+          "correct"  : 1
+    },
+    {
+        "question_id" : 4,
+        "question": "Coldplay Is from ...",
+        "answers": [
+          {"id": 0, "text": "London"},
+          {"id": 1, "text": "Berlin"},
+          {"id": 2, "text": "Toulouse"}
+    
+        ],
+        "correct": 0
+      },
+      {
+        "question_id" : 5,
+        "question": "John Lennon and Paul McCartney are membres of...",
+        "answers": [
+          {"id": 0, "text": "Iron Maiden"},
+          {"id": 1, "text": "Big Flo et Oli"},
+          {"id": 2, "text": "The Beatles"}
+    
+        ],
+        "correct": 2
+      },
+      {
+        "question_id" : 5,
+        "question": "The submarine is...",
+        "answers": [
+          {"id": 0, "text": "Green"},
+          {"id": 1, "text": "Yellow"},
+          {"id": 2, "text": "Red"}
+    
+        ],
+        "correct": 1
+      },
+      {
+        "question_id" : 5,
+        "question": "The ORIGINAL Sound of Silence is from...",
+        "answers": [
+          {"id": 0, "text": "The Dickies"},
+          {"id": 1, "text": "Disturbed"},
+          {"id": 2, "text": "Simon and Garfunkel"}
+    
+        ],
+        "correct": 2
+      }  
+  ]
+  
